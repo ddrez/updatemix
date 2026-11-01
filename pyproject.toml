@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=64"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "updatemix"
+version = "0.1.0"
+description = "Record a fine-tuning trajectory, then mix it: LoRA-FA endpoint-mixture updatemix (SWA-class, learned weights)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["torch"]
+license = { text = "MIT" }
+
+[tool.setuptools]
+packages = ["updatemix"]
